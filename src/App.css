@@ -1,0 +1,116 @@
+button {
+  color: black;
+  font-weight: 600;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color: lightblue;
+  padding: 12px;
+  margin-top: -50px;
+}
+button:hover {
+  transition: 200ms;
+  scale: 1.03;
+  background-color: white;
+}
+
+.column-1 {
+  height: 100%;
+  float: left;
+  width: 90%;
+}
+.column-2 {
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+.row {
+  height: 100px;
+  padding: 20px 50px 0px 30px;
+}
+
+.box {
+  background-color: #22223b !important;
+  color: white;
+  /* height: 18vh; */
+}
+
+.box-2 {
+  margin-left: 100px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.column-3 {
+  float: left !important;
+  width: 33% !important;
+}
+h2 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.profile {
+  background-color: #fefae0 !important;
+  border: 1.5px initial;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 300px;
+  margin: 20px 50px;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  background-color: rgb(247, 189, 181);
+}
+
+.profile:hover {
+  transition: 400ms;
+  box-shadow: 0 8px 16px 0 white;
+  transform: translateY(-10px);
+}
+.email {
+  color: 22223b;
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  color: #22223b;
+}
+.loader {
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  .profile {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .name {
+    font-size: medium;
+  }
+  .column-3 {
+    float: left;
+    margin-left: 60px;
+  }
+
+  .email {
+    font-size: small;
+  }
+
+  .loader {
+    align-self: center;
+    width: 100%;
+  }
+
+  .box {
+    width: 110vh;
+  }
+}
